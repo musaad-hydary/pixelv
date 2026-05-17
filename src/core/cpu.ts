@@ -197,7 +197,7 @@ export class RV32CPU {
     }
   }
 
-  // ── Fetch → Decode → Execute ──────────────────────────────────────────────
+  // Fetch → Decode → Execute
 
   step(): void {
     if (this.halted) return;

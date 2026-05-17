@@ -128,7 +128,7 @@ export default function App() {
       <div className="flex items-center gap-2 px-2 py-1 bg-[#000080] text-white text-xs shrink-0">
         <span className="text-[10px]">🖥</span>
         <span className="font-bold tracking-wider">
-          PIXEL-V — RV32I Graphics Runtime
+          PIXELV — RV32I Graphics Runtime
         </span>
         <div className="flex-1" />
         <WinButton>_</WinButton>

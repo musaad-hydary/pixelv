@@ -247,3 +247,7 @@ xloop:
 - **TypeScript** — fully typed throughout
 - **CodeMirror 6** — code editor
 - **Tailwind CSS** — styling
+
+## License
+
+MIT

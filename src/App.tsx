@@ -7,8 +7,6 @@ import { blitToCanvas, exportPNG } from "./core/framebuffer";
 import { DEMOS } from "./demos";
 import { FB_WIDTH, FB_HEIGHT } from "./core/cpu";
 
-type Status = "idle" | "running" | "success" | "error";
-
 const REG_NAMES = [
   "zero",
   "ra",

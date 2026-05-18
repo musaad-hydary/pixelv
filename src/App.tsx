@@ -139,7 +139,10 @@ export default function App() {
         <button
           className="px-2 py-0.5 hover:bg-[#000080] hover:text-white text-[11px]"
           onClick={() =>
-            window.open("https://github.com/riscv/riscv-isa-manual", "_blank")
+            window.open(
+              "https://musaadh.substack.com/p/pixelv-a-risc-v-cpu-in-the-browser",
+              "_blank",
+            )
           }
         >
           About

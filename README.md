@@ -1,12 +1,12 @@
 # PIXELV
 
-PIXELV browser-based RISC-V graphics runtime. Write RV32I assembly, hit RUN, see pixels rendered in real time!
+PIXELV browser-based RISCV graphics runtime. Write RV32I assembly, hit RUN, see pixels rendered in real time!
 
 Built with React, TypeScript, and Vite. No backend. Everything runs in the browser.
 
 ## About the Project
 
-PIXELV simulates a complete RISC-V CPU in JavaScript. When you write assembly and run it:
+PIXELV simulates a complete RISCV CPU in JavaScript. When you write assembly and run it:
 
 1. The **assembler** parses your text and encodes every instruction into a 32-bit binary word
 2. The **executor** loads those words into simulated RAM and runs the fetch → decode → execute loop
@@ -37,7 +37,7 @@ npm run preview
 
 ## Writing assembly
 
-Programs are written in RV32I assembly — the base 32-bit RISC-V integer instruction set.
+Programs are written in RV32I assembly — the base 32-bit RISCV integer instruction set.
 
 ### Basic structure
 
@@ -54,7 +54,7 @@ Programs are written in RV32I assembly — the base 32-bit RISC-V integer instru
 
 ### Registers
 
-RISC-V has 32 registers. The ones you'll use most:
+RISCV has 32 registers. The ones you'll use most:
 
 | Register | ABI Name | Purpose                            |
 | -------- | -------- | ---------------------------------- |
